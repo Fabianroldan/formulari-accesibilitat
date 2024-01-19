@@ -1,0 +1,68 @@
+* {
+    background-color: rgb(78, 137, 245);
+    margin: 10px;
+}
+
+.part-superior {
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.titol {
+    background-color: inherit;
+    display: inline;
+}
+
+.interrogant {
+    background-color: inherit;
+    display: inline;
+    margin-left: 1px;
+    background-color: darkblue;
+    color: lightblue;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 4%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3vh;
+
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+#incorrecte {
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+#correcte {
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
